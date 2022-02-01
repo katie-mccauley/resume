@@ -1,0 +1,116 @@
+:root{
+  --blue: rgb(18, 18, 207);
+  --lightblue: rgb(125, 143, 247);
+  --lightest: rgb(250, 240, 240);
+  --dark: rgb(12, 11, 11);
+}
+
+.center-writing{
+  justify-content: center;
+}
+
+.text-align{
+  text-align: center;
+}
+
+.border-color{
+  border: 3px solid var(--dark);
+}
+
+.blue-bar{
+  background-color: var(--lightblue);
+  min-height: 8px;
+ 
+}
+
+.dark-bar{
+  background-color: var(--blue);
+  height: 50px;
+  margin-bottom: 0;
+  position: absolute;
+}
+
+.p-2{
+  padding-left: 30px;
+}
+
+.p-3{
+  padding-top: 1px;
+}
+
+.p-b{
+  padding-bottom: 8px;
+}
+
+.p-1{
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
+.left-column{
+  width: 60%;
+}
+
+.right-column{
+  width: 40%;
+}
+
+h1{
+  background-color: var(--blue);
+  padding: 0;
+  margin-top: 0;
+  border: 3px solid var(--dark);
+}
+
+body{
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.mb-1{
+  margin-bottom: 0
+}
+
+header{
+  color: var(--lightest);
+}
+
+
+.d-flex{
+  display: flex;
+}
+
+h2, h3{
+  color: var(--dark);
+}
+
+.m-b{
+  margin-bottom: 0px;
+}
+
+.resume-photo{
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  text-align: center;
+
+}
+
+.d-center{
+  display: flex; 
+  justify-content: center;
+}
+
+main{
+  margin-bottom: 50px
+}
+
+.footer{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: var(--blue);
+  border: 3px solid var(--dark);
+}
